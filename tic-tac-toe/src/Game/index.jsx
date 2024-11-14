@@ -47,7 +47,7 @@ const Game = () => {
     setSquares(Array(9).fill(null));
     setIsXNext(true);
   };
-
+  
   return (
     <div>
       <Status>{status}</Status>
